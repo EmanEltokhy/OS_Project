@@ -395,7 +395,7 @@ void command_prompt_readline(const char *prompt, char* buf) {
 void run_command_prompt()
 {
 	char command_line[BUFLEN];
-
+	test_kmalloc();
 	while (1==1)
 	{
 		//readline("FOS> ", command_line);
